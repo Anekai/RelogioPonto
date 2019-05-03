@@ -16,7 +16,7 @@ import javax.persistence.Table;
 @Table(name = "cidades")
 @SequenceGenerator(allocationSize = 1, name = "seq_cidade", sequenceName = "seq_cidade")
 public class Cidade implements Serializable {
-    // testes
+
     private Integer id;
     private String nome;
     private Estado estado;
